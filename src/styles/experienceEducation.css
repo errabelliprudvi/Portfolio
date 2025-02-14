@@ -99,7 +99,7 @@
   margin-top: 5px;
 }
 
-
+/*
 @media (prefers-color-scheme: dark) {
   .experience-education {
     background:  #1a202c;
@@ -110,7 +110,7 @@
   }
 
   .timeline-content {
-    background-color: #2d3748; /* Slightly lighter background */
+    background-color: #2d3748;  Slightly lighter background 
   }
 
   .timeline-content h3 {
@@ -139,4 +139,4 @@
     color: #ced2d8;
     margin-top: 5px;
   }
-}
+}*/
