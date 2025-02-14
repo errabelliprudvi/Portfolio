@@ -1,0 +1,93 @@
+/* About Me Section */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  
+  width: 100vw;  /* Ensures full viewport width */
+  background:#D4F1F4;
+
+  border-radius: 0px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Prevents scrolling */
+}
+
+@media (min-width: 768px) {
+  .about-me {
+    flex-direction: row;
+  }
+}
+
+
+/* Text Content */
+.about-text {
+  width: 100%;
+  text-align: left;
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  background: -webkit-linear-gradient(45deg, #000000, #0f0f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text p {
+  font-size: 1.125rem;
+  color: #2d3748;
+  margin-top: 16px;
+  line-height: 1.6;
+}
+
+/* Profile Image */
+.about-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+
+.about-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Image Hover Effect */
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .about-me {
+    background:  #1a202c;
+  }
+
+  .about-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: -webkit-linear-gradient(45deg, #ffffff, #fcf7f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .about-text p {
+    color: #bdbdbd;
+  }
+
+  .about-image img {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}

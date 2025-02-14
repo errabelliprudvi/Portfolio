@@ -1,0 +1,142 @@
+/* Styles for Experience & Education */
+.experience-education {
+  background-color: #c0d9e9; /* Light gray background */
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.experience-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.experience-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* Timeline Layout */
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Vertical Line */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #cbd5e0; /* Gray-400 */
+}
+
+/* Icons */
+.timeline-icon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: #05445E; /* Dark gray */
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content Box */
+.timeline-content {
+  background:#D4F1F4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.timeline-content h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a202c;
+}
+
+.timeline-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.timeline-content .company {
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.timeline-content .location {
+  font-style: italic;
+  color: #718096;
+}
+
+.timeline-content .description {
+  color: #4a5568;
+  margin-top: 5px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .experience-education {
+    background:  #1a202c;
+  }
+
+  .experience-heading {
+    color: white;
+  }
+
+  .timeline-content {
+    background-color: #2d3748; /* Slightly lighter background */
+  }
+
+  .timeline-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ced2d8;
+  }
+  
+  .timeline-content h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ced2d8;
+  }
+  
+  .timeline-content .company {
+    font-weight: bold;
+    color: #ced2d8;
+  }
+  
+  .timeline-content .location {
+    font-style: italic;
+    color: #ced2d8;
+  }
+  
+  .timeline-content .description {
+    color: #ced2d8;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,135 @@
+/* Home section */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #05445E;
+  color: #ffffff;
+  max-width: 100%;
+  backdrop-filter: blur(10px);
+  border-radius: 0px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .home {
+    flex-direction: row;
+    padding: 0 40px;
+  }
+}
+
+/* Image container */
+.home-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-image img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  /*border: 5px solid rgba(76, 77, 77, 0.692);*/
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Image Hover Effect */
+.home-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Text container */
+.home-text {
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+}
+
+.home-text h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+  /*background:white ;*/
+  
+}
+
+@media (min-width: 768px) {
+  .home-text h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Subtext */
+.home-text p {
+  font-size: 2rem;
+  color: white;
+  margin-top: 2px;
+}
+
+/* Modern Button */
+.home-button {
+  margin-top: 20px;
+  background: #189AB4;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background: #189AB4;
+  transform: translateY(-3px);
+}
+/* GitHub Link */
+.Linkedin-link {
+ 
+  background-color:transparent; /* Yellow button */
+  color: #ffffff;
+  
+}
+
+.Linkedin-link:hover {
+  background-color: transparent; /* Slightly darker yellow */
+  color: #ffffff;
+}
+
+
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .home {
+    background:  #1a202c;
+   /*background: linear-gradient(135deg, #1e1e1e, #3a3d40);*/
+  }
+
+  .home-text h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: -webkit-linear-gradient(45deg, #ffffff, #e7d9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .home-text p {
+    color: #e9e5e5;
+  }
+
+  .home-button {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .home-button:hover {
+    background:  rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+  }
+}

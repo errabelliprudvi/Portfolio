@@ -1,0 +1,99 @@
+/* styles/sampleWork.css */
+.sample-work-section {
+  background-color: #D4F1F4; /* Dark background */
+  color: white;
+  padding: 64px 24px;
+}
+
+/* Header Styling */
+.sample-work-header {
+  text-align: center;
+  margin-bottom: 48px;
+  color: #05445E;
+}
+
+.sample-work-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Grid Layout */
+.sample-work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 72rem;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .sample-work-grid {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0 80px;
+  }
+}
+
+/* Sample Work Item */
+.sample-work-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#189AB4; /* Slightly lighter background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.sample-work-item img {
+  width: 120px;  /* Fixed size for a circular shape */
+  height: 120px; /* Same as width */
+  border-radius: 50%; /* Perfect circle */
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+/* Title */
+.sample-work-item h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Description */
+.sample-work-item p {
+  color: #d1d5db; /* Light gray text */
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* Skills */
+.sample-work-item h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #D4F1F4; /* Yellow */
+  margin-top: 12px;
+}
+
+/* GitHub Link */
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #D4F1F4; /* Yellow button */
+  color: #1a202c;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.github-link:hover {
+  background-color: #D4F1F4; /* Slightly darker yellow */
+}
