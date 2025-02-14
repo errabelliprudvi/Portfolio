@@ -106,10 +106,11 @@
 
 
 /* Dark Mode */
+/*
 @media (prefers-color-scheme: dark) {
   .home {
     background:  #1a202c;
-   /*background: linear-gradient(135deg, #1e1e1e, #3a3d40);*/
+   background: linear-gradient(135deg, #1e1e1e, #3a3d40);
   }
 
   .home-text h1 {
@@ -133,3 +134,4 @@
     transform: translateY(-3px);
   }
 }
+*/
