@@ -42,9 +42,7 @@ const ContactSection = () => {
             <FaFacebookF />
           </a>
           
-          <a href="https://github.com/errabelliprudvi">
-          <FaGithub />
-          </a>
+          
 
           <a href="https://www.linkedin.com/in/prudvi-errabelli">
             <FaLinkedinIn />

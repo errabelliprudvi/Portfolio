@@ -2,12 +2,11 @@
 
 
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  margin: 0;
+  margin-left: 0px;
   color-scheme: light dark;
   color: #333; /* Ensures text is dark for readability */
   background: linear-gradient(135deg, #ebebe9, #dceaf8);

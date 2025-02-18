@@ -16,23 +16,24 @@ const ExperienceEducation = () => {
       role: "JAVA DEVELOPER INTERN",
       company: "CODSOFT",
       description:
-        "Provides direction for applications in development. Researches and develops new ways to improve our development process. Mentors Junior Software Engineers.",
-      type: "work",
+      "Gained knowledge of advanced Java concepts like reflection, annotations, and serialization, applying them to optimize application design and functionality.",
+        type: "work",
     },
-    {
-      year: "2024",
-      role: "INTERNSHALA STUDENT PARTNER",
-      company: "INTERNSHALA",
-      description:
-        "Developed, installed, and configured internal applications, as well as new application releases into test and production environments.",
-      type: "work",
-    },
+    
+      {
+        "year": "2024",
+        "role": "Internshala Student Partner",
+        "company": "Internshala",
+        "description": "Promoted Internshala's training programs, guided students in career opportunities, and organized workshops to increase awareness about online internships.",
+        "type": "work"
+      },
+      
     {
       year: "2024",
       role: "SOFTWARE ENGINEER INTERN",
       company: "VCM TECHNOLOGIES PVT LTD",
       description:
-        "Provides direction for applications in development. Researches and develops new ways to improve our development process. Mentors Junior Software Engineers.",
+        "Contributed to the development of Java-based applications, focused on backend functionality and API development. Participated in code re-views, unit testing, and debugging to maintain high-quality code standards.",
       type: "work",
     },
   ];
