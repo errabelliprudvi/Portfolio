@@ -26,7 +26,7 @@ const Home = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
       >
         <h1>Prudvi Errabelli</h1>
-        <p>Software Engineer</p>
+        <p></p>
         
 
         <div className="header-icons">
@@ -34,7 +34,7 @@ const Home = () => {
         <a href="https://leetcode.com/u/Lets-prove" target="_blank" rel="noopener noreferrer">
                  <img src={leetcode} alt="LeetCode" style={{ width: "50px", height: "50px" }} />
                </a>
-               
+
                <a href="https://github.com/errabelliprudvi"target="_blank" rel="noopener noreferrer">
                          <FaGithub size={50}   style={{ color: 'white' }}/>
                          </a>
