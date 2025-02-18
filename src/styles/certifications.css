@@ -1,71 +1,101 @@
 /* styles/certifications.css */
 .certifications-section {
-    padding: 64px 24px;
-    background-color:#D4F1F4; /* Light gray background */
-    color: #1a202c; /* Dark gray text */
-  }
-  
-  .certifications-header {
-    text-align: center;
-    margin-bottom: 48px;
-  }
-  
-  .certifications-header h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  /* Grid Layout */
+  padding: 48px 16px; /* Reduced padding for smaller screens */
+  background-color: #D4F1F4;
+  color: #1a202c;
+}
+
+/* Header */
+.certifications-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.certifications-header h2 {
+  font-size: 2rem; /* Reduced font size for smaller screens */
+  font-weight: bold;
+}
+
+/* Grid Layout */
+.certifications-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
   .certifications-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 40px;
-    max-width: 72rem;
-    margin: 0 auto;
-  }
-  
-  @media (min-width: 768px) {
-    .certifications-grid {
       grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      padding: 0 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .certifications-grid {
+      grid-template-columns: repeat(3, 1fr); /* Three-column layout for large screens */
+      gap: 48px;
       padding: 0 80px;
-    }
   }
-  
-  /* Certification Card */
+}
+
+/* Certification Card */
+.certification-card {
+  display: flex;
+  align-items: center;
+  background-color: #D4F1F4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px); /* Smooth hover effect */
+}
+
+/* Image Adjustments */
+.certification-card img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 10px;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
   .certification-card {
-    display: flex;
-    align-items: center;
-    background-color: #D4F1F4;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 24px;
+      flex-direction: column;
+      text-align: center;
   }
-  
+
   .certification-card img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 10px; /* Slightly rounded edges */
-    margin-right: 16px;
-    object-fit: cover;
+      width: 10rem;
+      height: 10rem;
+      margin-bottom: 12px;
   }
-  
-  .certification-text {
-    flex-grow: 1;
-  }
-  
-  .certification-text h3 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  .certification-text .issuer {
-    color: #4a5568; /* Gray */
-    font-size: 1rem;
-  }
-  
-  .certification-text .year {
-    color: #718096; /* Lighter gray */
-    font-size: 0.875rem;
-  }
-  
+}
+
+/* Text Adjustments */
+.certification-text {
+  flex-grow: 1;
+}
+
+.certification-text h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.certification-text .issuer {
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.certification-text .year {
+  color: #718096;
+  font-size: 0.85rem;
+}

@@ -30,10 +30,11 @@ const Home = () => {
         
 
         <div className="header-icons">
-               <a href="https://leetcode.com/u/Lets-prove" target="_blank" rel="noopener noreferrer">
+
+        <a href="https://leetcode.com/u/Lets-prove" target="_blank" rel="noopener noreferrer">
                  <img src={leetcode} alt="LeetCode" style={{ width: "50px", height: "50px" }} />
                </a>
-
+               
                <a href="https://github.com/errabelliprudvi"target="_blank" rel="noopener noreferrer">
                          <FaGithub size={50}   style={{ color: 'white' }}/>
                          </a>
