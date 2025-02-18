@@ -18,33 +18,29 @@
 }
 
 /* Grid Layout */
+/* Parent Container for Sample Work Items */
 .sample-work-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange items in a vertical column */
+  gap: 40px; /* Space between items */
   max-width: 72rem;
   margin: 0 auto;
-  text-align: center;
-  align-items: center;
-}
-
-@media (min-width: 768px) {
-  .sample-work-grid {
-      grid-template-columns: repeat(3, 1fr);
-      padding: 0 80px;
-  }
+  padding: 20px;
+  align-items: center; /* Center items horizontally */
 }
 
 /* Sample Work Item */
 .sample-work-item {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers content horizontally */
-  text-align: center;
+  align-items: flex-start;
+  text-align: start;
   padding: 20px;
   border-radius: 10px;
-  background-color:#189AB4; /* Slightly lighter background */
+  background-color: #05445E; /* Slightly lighter background */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Ensure items take full width */
+  max-width: 600px; /* Set a maximum width for readability */
 }
 
 /* Image Styling */
@@ -96,4 +92,9 @@
 
 .github-link:hover {
   background-color: #D4F1F4; /* Slightly darker yellow */
+}
+
+.project_code_link{
+  display: flex;
+  gap: 10px;
 }

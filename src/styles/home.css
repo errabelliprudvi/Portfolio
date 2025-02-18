@@ -103,6 +103,19 @@
   color: #ffffff;
 }
 
+.header-icons{
+  display: inline;
+  gap: 10px;
+}
+.header-icons a {
+  margin-right: 15px; /* Adds space between icons */
+}
+
+.header-icons a:last-child {
+  margin-right: 0; /* Removes margin from the last icon */
+}
+
+
 
 
 /* Dark Mode */

@@ -3,7 +3,7 @@ import "../styles/skillsProficiencies.css"; // Import external CSS
 
 const SkillsProficiencies = () => {
   const technicalSkills = [
-    "Java", "DSA", "C++", "Python", "JavaScript", "SQL"
+    "Java", "DSA", "C++", "Python", "JavaScript", "SQL", "Software Development","Full Stack", "ReactJs", "NodeJs", "Spring Framework"
   ];
 
   const languages = [

@@ -42,8 +42,8 @@
   }
   
   .certification-card img {
-    width: 5rem;
-    height: 5rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 10px; /* Slightly rounded edges */
     margin-right: 16px;
     object-fit: cover;

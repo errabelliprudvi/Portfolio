@@ -1,8 +1,15 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import cp from "../assets/prudvicp.jpg"
 import "../styles/contact.css"; // Import external CSS
+
+
+
+
+
+
+
 
 const ContactSection = () => {
   return (
@@ -34,6 +41,11 @@ const ContactSection = () => {
           <a href="#">
             <FaFacebookF />
           </a>
+          
+          <a href="https://github.com/errabelliprudvi">
+          <FaGithub />
+          </a>
+
           <a href="https://www.linkedin.com/in/prudvi-errabelli">
             <FaLinkedinIn />
           </a>

@@ -19,7 +19,9 @@ const AboutMe = () => {
           development. I have a strong focus on building scalable applications using React.js, Node.js, MySQL, and
           developing Android apps with Kotlin. I also have experience with real-time systems using WebSockets and
           process management for Linux. I am dedicated to creating efficient, clean, and maintainable code.
+           
         </p>
+        <p>You can view my full resume <a href="https://drive.google.com/file/d/1MuZvXs7ThYC_qyFjofR9ff4A6hkf11xO/view?usp=drive_link">here.</a></p>
       </motion.div>
 
       {/* Right - Image */}
