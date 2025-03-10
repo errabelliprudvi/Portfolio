@@ -33,7 +33,7 @@ const ExperienceEducation = () => {
       role: "SOFTWARE ENGINEER INTERN",
       company: "VCM TECHNOLOGIES PVT LTD",
       description:
-        "Contributed to the development of Java-based applications, focused on backend functionality and API development. Participated in code re-views, unit testing, and debugging to maintain high-quality code standards.",
+        "Developed and optimized full-stack applications using the MERN stack, focusing on building scalable RESTful APIs and dynamic frontend interfaces. Designed and implemented backend services using Node.js and Express.js, ensuring robust authentication, authorization, and database interactions.",
       type: "work",
     },
   ];
